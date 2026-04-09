@@ -34,8 +34,8 @@ client.once("ready", () => {
 });
 
 client.on("messageCreate", async (message) => {
-  // Ignore bots
-  if (message.author.bot) return;
+  // Only ignore itself, not other bots/webhooks
+  if (message.author.id === client.user.id) return;
 
   // Only watch the configured channel
   if (message.channelId !== config.watchChannelId) return;
