@@ -1,0 +1,9 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "main": "discord_keyword_bot.js",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
