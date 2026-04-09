@@ -13,7 +13,7 @@ const config = {
     { keyword: "hell", roleId: "1491755464772554752" },
     { keyword: "heaven", roleId: "1491755505708699658" },
     { keyword: "null", roleId: "1491755533886029934" },
-    { keyword: "corruption", roleId: "1491755964280606740" },
+    { keyword: "windy", roleId: "1491755964280606740" },
   ],
 };
 // ──────────────────────────────────────────
